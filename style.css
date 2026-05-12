@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 { color: #646cff; }
+
+.controles {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background: #333;
+  color: white;
+  font-size: 16px;
+  width: 60%;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background-color: #646cff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover { background-color: #535bf2; }
+
+.mensaje { font-weight: bold; font-size: 1.1rem; min-height: 24px; }
+.mensaje.error { color: #ff4646; }
+.mensaje.exito { color: #42b883; }
+
+.oculto { display: none; }
+#btn-reiniciar { margin-top: 15px; background-color: #42b883; width: 100%; }
+#btn-reiniciar:hover { background-color: #33a06f; }

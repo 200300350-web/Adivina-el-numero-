@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivina el Número | Vite + Vanilla JS</title>
+  </head>
+  <script type="module" src="/main.js"></script>
+  <body>
+    <div id="app" class="contenedor">
+      <h1>🎮 Adivina el Número</h1>
+      <p>Estoy pensando en un número del 1 al 100...</p>
+      
+      <div class="controles">
+        <input type="number" id="input-numero" placeholder="Ingresa tu número..." min="1" max="100">
+        <button id="btn-adivinar">Adivinar</button>
+      </div>
+
+      <p id="mensaje" class="mensaje"></p>
+      <p id="intentos">Intentos: 0</p>
+      
+      <!-- Este botón estará oculto hasta que el jugador gane -->
+      <button id="btn-reiniciar" class="oculto">Jugar de Nuevo 🔄</button>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
